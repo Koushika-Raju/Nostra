@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="ml-5 mr-5">
+    <section>
+        <div class="bg-gray-700 text-white sm:w-full sm:flex p-2 justify-center " id="offerbar">
+
+            <p class="sm:mx-auto font-medium">
+                <span class="font-semibold">Sign Up</span> and <span class="font-bold">GET 20% OFF</span> for your first
+                order
+            </p>
+
+            <div class="font-bold cursor-pointer mr-52" id="cross">X</div>
+        </div>
+
+        <div class="mt-5 flex items-center justify-between " id="header__div2">
+            <h1 class="text-3xl font-bold">Nostra</h1>
+            <!-- Hamburger menu -->
+            <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-10 w-10 md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <div class="flex gap-5 hidden md:flex" id="header__div2__div">
+
+                <a href="index.html" class="cursor-pointer font-bold hover:underline">Home</a>
+                <a href="collection.html" class="cursor-pointer font-bold hover:underline">Collections</a>
+                <a href="contact.html" class="cursor-pointer font-bold hover:underline">Contact Us</a>
+            </div>
+        </div>
+
+        <!-- Sidenav bar -->
+
+        <div id="sidenav"
+            class="flex flex-col gap-5  bg-gray-700 text-white md:hidden fixed z-20 -left-52 top-0 w-52 h-full items-center transition-all duration-1000 ">
+            <h1 id="closenav" class="ml-auto cursor-pointer ">X</h1>
+            <a href="" class="cursor-pointer font-bold hover:underline ">Home</a>
+            <a href="" class="cursor-pointer font-bold hover:underline">Collections</a>
+            <a href="contact.html" class="cursor-pointer font-bold hover:underline">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- chexboxes -->
+
+    <section class="mt-7 flex gap-10">
+  <!-- Filters (Left Side) -->
+  <div class="min-w-[200px]">
+    <h1 class="font-bold text-2xl mb-2">Occasion</h1>
+    <div class="text-lg">
+      <label><input type="checkbox" class="mr-2">Summer</label><br>
+      <label><input type="checkbox" class="mr-2">Party</label><br>
+      <label><input type="checkbox" class="mr-2">Beach</label><br>
+      <label><input type="checkbox" class="mr-2">Formal</label>
+    </div>
+
+    <h1 class="font-bold text-2xl mt-6 mb-2">Colours</h1>
+    <div class="text-lg">
+      <label><input type="checkbox" class="mr-2">Red</label><br>
+      <label><input type="checkbox" class="mr-2">Blue</label><br>
+      <label><input type="checkbox" class="mr-2">Green</label><br>
+      <label><input type="checkbox" class="mr-2">White</label><br>
+      <label><input type="checkbox" class="mr-2">Black</label>
+    </div>
+
+    <h1 class="font-bold text-2xl mt-6 mb-2">Arrivals</h1>
+    <div class="text-lg">
+      <label><input type="checkbox" class="mr-2">New</label><br>
+      <label><input type="checkbox" class="mr-2">Old</label>
+    </div>
+  </div>
+
+  <!-- Product Section (Right Side) -->
+  <div class="flex-1">
+    <!-- Search bar -->
+    <!-- Search bar -->
+<div class="flex items-center border border-black  rounded overflow-hidden px-2 ml-36 mr-4">
+ 
+
+    <input type="text"  placeholder="Search" 
+    class="w-full p-2 outline-none " id="search">
+
+  <i class="fa-solid fa-magnifying-glass text-black pr-2"></i>
+</div>
+
+
+    <!-- Product Grid -->
+    <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-6 mt-10 md:ml-36 " id="products">
+      <!-- Example Product -->
+      <div>
+        <img src="images/amzshirt1.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Formal gray shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div>
+        <img src="images/amzshirt2.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Casual popcorn shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div>
+        <img src="images/amzshirt3.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Casual gray Shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div>
+        <img src="images/amzshirt4.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Flooral Summer Shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div>
+        <img src="images/amzshirt5.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Flooral Summer Shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div>
+        <img src="images/amzshirt6.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">New Party Shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div> 
+        <img src="images/amzshirt7.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Formal black shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div>
+        <img src="images/amzshirt8.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Maroon shirt</h2>
+        <p>$200</p>
+      </div>
+
+      <div>
+        <img src="images/amzshirt9.jpg" alt="Shirt"  />
+        <h2 class="font-bold text-lg">Green shirt</h2>
+        <p>$200</p>
+      </div>
+      <!-- Copy the above div for more products -->
+    </div>
+  </div>
+</section>
+
+ <!-- join news -->
+    <section class="mt-10 flex flex-col items-center gap-3">
+    
+            <h1 class="text-bold text-4xl ">Join our News Letter</h1>
+            <h1 class="text-bold text-2xl ">Signup for our email newspaper to get exclusive discount,Updates,and more
+            </h1>
+     
+
+        <input type="text" class="w-3/4 h-10 border-2 border-black ">
+        <button
+            class="w-40 h-10 border bg-black border-black rounded p-2 text-white flex items-center gap-2 hover:bg-white hover:border-black hover:text-black">
+            Subscribe
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-10 w-10">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+        </button>
+    </section>
+
+     <!-- footer -->
+    <section>
+
+        <div class="bg-black text-white mt-10 p-5 flex flex-col gap-3">
+            <h1 class="text-bold text-4xl">Nostra</h1>
+            <h1 class="text-bold text-xl">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</h1>
+            <div class=" flex gap-3">
+<i class="fa-brands fa-instagram "></i>
+            <i class="fa-brands fa-facebook "></i>
+             <i class="fa-brands fa-x-twitter"></i>
+            
+            </div>
+            
+            <h1>@ 2025 Nostra.com</h1>
+        </div>
+    </section>
+    <script src="collection.js"></script>
+</body>
+
+</html>
